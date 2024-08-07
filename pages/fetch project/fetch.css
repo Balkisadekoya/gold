@@ -1,0 +1,50 @@
+/* reset css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#shopping-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+    padding: 20px;
+    
+}
+.contain{
+    border: 1px solid;
+    padding: 50px;
+    border-radius: 25px;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-left: 90px;
+}
+.tit{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: blue;
+}
+.des{
+    font-size: 16px;
+    line-height: 20px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+.cat{
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: blue;
+}
+.rate{
+    display: flex;
+}
